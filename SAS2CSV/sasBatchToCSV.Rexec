@@ -1,0 +1,27 @@
+##Loading Libraries
+library(haven) ##To read .sas7bdat files
+library(stringr) ##To split strings
+
+setwd(getwd()) #set working directory
+
+##Conversion from .sas7bdat to .csv
+temp = list.files(pattern = "*.sas7bdat")
+for(i in 1:length(temp)){
+  cat("Reading:", temp[i])
+  tmp.df = read_sas(temp[i])
+  assign(temp[i], tmp.df)
+  cat("\nConverting:", temp[i])
+  temp[i] <- str_split_fixed(temp[i], '.sas7bdat', 2)[1]
+  temp[i] <- paste(temp[i], "csv", sep = ".")
+  cat("\nWriting:", temp[i])
+  write.csv(tmp.df, file = temp[i], row.names = FALSE)
+  cat("\n\n")
+}
+cat("\nMoving Files\n")
+target = getwd()
+subDir <- "CSV"
+dir.create(file.path(target, subDir), showWarnings = FALSE)
+file.copy(from = temp, to = file.path(target, subDir), overwrite = TRUE, copy.mode = TRUE)
+file.remove(temp)
+cat("\nAll Done. Closing")
+sleep(10)

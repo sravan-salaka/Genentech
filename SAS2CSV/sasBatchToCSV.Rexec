@@ -1,4 +1,4 @@
-```R
+```{r}
 ##Loading Libraries
 library(haven) ##To read .sas7bdat files
 library(stringr) ##To split strings

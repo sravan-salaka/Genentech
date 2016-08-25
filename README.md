@@ -8,4 +8,5 @@ In this Github repository titled "Genentech", I document my findings from the ev
 3. **Documentation of the R executable** - Documentation for using the R executable.<br />
 4. **The Final Documentation** - I address the most pressing business problems pertaining to Hadoop, Clinical Trial Data and Teradata.<br />
 
-TX
+### 2. Links for Suggested Reading
+When I started work on the Hadoop Proof of concept, I lacked a compact understanding of how the tools within a Hadoop Ecosystem worked and how they could 

@@ -31,7 +31,7 @@ When I started work on the Hadoop Proof of concept, I lacked a compact understan
 [AmpLab Github](https://github.com/amplab-extras/SparkR-pkg) <br />
 
 ### 3. Contact Information <br />
-Email : inb11@pitt.edu
+Email : inb11@pitt.edu <br />
 My internship concludes on the 26th of August and I return to the University of Pittsburgh to complete my Master's Degree. Please feel free to contact me with any questions that you may have regarding my work here at Genentech.
 
 ***

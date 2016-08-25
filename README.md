@@ -22,3 +22,12 @@ When I started work on the Hadoop Proof of concept, I lacked a compact understan
 [Apache Spark, Cloudera Search, Impala — Which is best for Analytics?](https://vision.cloudera.com/apache-spark-cloudera-search-impala-which-is-best-for-analytics/) <br />
 [How-to: Use Apache Solr to Query Indexed Data for Analytics](http://blog.cloudera.com/blog/2015/10/how-to-use-apache-solr-to-query-indexed-data-for-analytics/) <br />
 [Writing Python UDFs in Pig](https://pig.apache.org/docs/r0.11.0/udf.html#python-udfs)<br />
+
+#### Spark and Databricks
+[Getting Started with Apache Spark on Databricks](https://databricks.com/product/getting-started-with-apache-spark-on-databricks) <br />
+[UC Berkeley AMP Camp - Spark tutorials](http://ampcamp.berkeley.edu/) <br />
+[SparkR](http://spark.apache.org/docs/latest/sparkr.html) <br />
+[Spark and RStudio](http://spark.rstudio.com/) <br />
+[AmpLab Github](https://github.com/amplab-extras/SparkR-pkg) <br />
+
+***

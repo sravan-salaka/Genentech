@@ -22,6 +22,8 @@ When I started work on the Hadoop Proof of concept, I lacked a compact understan
 [Apache Spark, Cloudera Search, Impala — Which is best for Analytics?](https://vision.cloudera.com/apache-spark-cloudera-search-impala-which-is-best-for-analytics/) <br />
 [How-to: Use Apache Solr to Query Indexed Data for Analytics](http://blog.cloudera.com/blog/2015/10/how-to-use-apache-solr-to-query-indexed-data-for-analytics/) <br />
 [Writing Python UDFs in Pig](https://pig.apache.org/docs/r0.11.0/udf.html#python-udfs)<br />
+[Genentech Cervical Cancer Data Kaggle Competition Winners interview](http://blog.kaggle.com/2016/02/26/genentech-cervical-cancer-screening-winners-interview-1st-place-michael-giulio/) <br />
+[Genentech Cervical Cancer Data Kaggle Competition Winning Solution Github](https://github.com/adjgiulio/Genentech_Cervical_Cancer)<br />
 
 #### Spark and Databricks
 [Getting Started with Apache Spark on Databricks](https://databricks.com/product/getting-started-with-apache-spark-on-databricks) <br />
